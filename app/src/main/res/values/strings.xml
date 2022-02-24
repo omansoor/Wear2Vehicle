@@ -13,4 +13,12 @@
     values-round/strings.xml for round devices.
     -->
     <string name="hello_world">Hello Watch2Vehicle!</string>
+    <string name="title_activity_maintenance_tasks">MaintenanceTasksActivity</string>
+    <string name="ChargeTaskDescription">Launch Charge task</string>
+    <string name="MaintenanceTaskDescription">Launch maintenance tasks activity</string>
+    <string name="FindCarLocationDesc">Find vehicle activity</string>
+    <string name="SentryModeDesc">Switch sentry mode activity</string>
+    <string name="LockUnlockDesc">Switch car lock activity</string>
+    <string name="HonkBugle">Honk bugle action</string>
+    <string name="SwitchClimateControl">Switch climate control</string>
 </resources>

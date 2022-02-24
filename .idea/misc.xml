@@ -3,8 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/dev/Watch2Vehicle/app/src/main/res/layout/activity_charge_tasks.xml" value="1.2138157894736843" />
-        <entry key="..\:/dev/Watch2Vehicle/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/dev/Watch2Vehicle/app/src/main/res/layout/activity_charge_tasks.xml" value="1.0" />
+        <entry key="..\:/dev/Watch2Vehicle/app/src/main/res/layout/activity_main.xml" value="1.0" />
+        <entry key="..\:/dev/Watch2Vehicle/app/src/main/res/layout/activity_maintenance_tasks.xml" value="0.6785714285714286" />
       </map>
     </option>
   </component>

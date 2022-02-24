@@ -8,9 +8,6 @@
     tools:context=".MainActivity"
     tools:deviceIds="wear">
 
-
-
-
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -37,18 +34,21 @@
                 <ImageButton
                     android:id="@+id/imageButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="false"
-                    android:onClick="createOnGoingActivityNotification"
+                    android:onClick="startChargeTasksActivity"
+                    android:contentDescription="@string/ChargeTaskDescription"
                     android:src="@drawable/battery" />
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/imgButton_MaintenanceTasks"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_weight="1"
-                    android:src="@drawable/fan_off" />
+                    android:onClick="startMaintenanceTasksActivity"
+                    android:contentDescription="@string/MaintenanceTaskDescription"
+                    android:src="@drawable/car_cog" />
             </LinearLayout>
 
             <LinearLayout
@@ -61,18 +61,20 @@
                 app:layout_constraintBottom_toBottomOf="parent">
 
                 <ImageButton
-                    android:id="@+id/imageButton3"
+                    android:id="@+id/imgButton_SwitchCarLock"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_weight="1"
-                    android:src="@drawable/car_info" />
+                    android:contentDescription="@string/LockUnlockDesc"
+                    android:src="@drawable/lock" />
 
                 <ImageButton
-                    android:id="@+id/imageButton4"
+                    android:id="@+id/imgButton_SwitchSentryMode"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                    android:layout_height="50dp"
                     android:layout_weight="1"
-                    android:src="@drawable/lock" />
+                    android:contentDescription="@string/SentryModeDesc"
+                    android:src="@drawable/shield_car" />
             </LinearLayout>
 
 
