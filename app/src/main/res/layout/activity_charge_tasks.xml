@@ -47,12 +47,24 @@
 
             <ImageButton
                 android:id="@+id/imageButton"
-                android:layout_width="0dp"
+                android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_weight="1"
                 android:adjustViewBounds="false"
                 android:onClick="createOnGoingActivityNotification"
                 android:src="@drawable/battery_charging_10"
+                android:background="@drawable/round_button"
+                android:contentDescription="TODO" />
+
+            <ImageButton
+                android:id="@+id/imgButton_ClearOngoingNotification"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:adjustViewBounds="false"
+                android:onClick="clearNotification"
+                android:src="@drawable/battery"
+                android:background="@drawable/round_button"
                 android:contentDescription="TODO" />
 
 

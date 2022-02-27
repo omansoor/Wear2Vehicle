@@ -112,6 +112,12 @@ public class ChargeTasksActivity extends Activity {
         }
     }
 
+    public void clearNotification(View view)
+    {
+        NotificationManagerCompat notificationManager = NotificationManagerCompat.from(this);
+        notificationManager.cancel(199);
+    }
+
     private void createNotificationChannel() {
         // Create the NotificationChannel, but only on API 26+ because
         // the NotificationChannel class is new and not in the support library

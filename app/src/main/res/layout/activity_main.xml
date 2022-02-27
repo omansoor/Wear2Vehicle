@@ -33,22 +33,24 @@
 
                 <ImageButton
                     android:id="@+id/imageButton"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="false"
                     android:onClick="startChargeTasksActivity"
                     android:contentDescription="@string/ChargeTaskDescription"
-                    android:src="@drawable/battery" />
+                    android:src="@drawable/battery"
+                    android:background="@drawable/round_button"/>
 
                 <ImageButton
                     android:id="@+id/imgButton_MaintenanceTasks"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:onClick="startMaintenanceTasksActivity"
                     android:contentDescription="@string/MaintenanceTaskDescription"
-                    android:src="@drawable/car_cog" />
+                    android:src="@drawable/car_cog"
+                    android:background="@drawable/round_button"/>
             </LinearLayout>
 
             <LinearLayout
@@ -62,19 +64,21 @@
 
                 <ImageButton
                     android:id="@+id/imgButton_SwitchCarLock"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/LockUnlockDesc"
-                    android:src="@drawable/lock" />
+                    android:src="@drawable/lock"
+                    android:background="@drawable/round_button"/>
 
                 <ImageButton
                     android:id="@+id/imgButton_SwitchSentryMode"
-                    android:layout_width="wrap_content"
+                    android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_weight="1"
                     android:contentDescription="@string/SentryModeDesc"
-                    android:src="@drawable/shield_car" />
+                    android:src="@drawable/shield_car"
+                    android:background="@drawable/round_button"/>
             </LinearLayout>
 
 
